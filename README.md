@@ -1,7 +1,22 @@
 # first-react-app
 - Learning React
 
-## How to create a react app:
+## Clone the project using Git:
+> git clone https://github.com/teurajarvi/first-react-app.git
+
+## Start the React app
+> cd first-react-app
+> npm start
+
+## Stop the React app
+- from console:
+> Control + C
+
+## Use the React app
+- from Browser: localhost:3000
+
+
+## How the React project was initially created:
 > npx create-react-app first-react-app
 
 ### create-react-app will include many things:
