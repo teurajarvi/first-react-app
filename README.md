@@ -6,6 +6,7 @@
 
 ## Start the React app
 > cd first-react-app
+
 > npm start
 
 ## Stop the React app
