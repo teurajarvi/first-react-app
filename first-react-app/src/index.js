@@ -3,7 +3,7 @@
   * CommonJS Modules -> require
   */
 import React from "react";
-import ReactDOM from "react.dom";
+import ReactDOM from "react-dom";
 
 /** There appears to be an issue in CRA in regards to fast 
  * refresh when code changes are made to the index.js file:
