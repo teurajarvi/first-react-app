@@ -19,23 +19,21 @@ if (module.hot) {
   module.hot.accept();
 }
 
-function getButtonText() {
-  return 'Click on me!';
-}
-
 /** Create a React component
  *  const App = function() {}; or
  *  const App = () => {};
  */
 const App = function() {
+  const buttonText = { text: 'Click me' };
+  const labelText = 'Enter name:';
   return (
     <div>
-      <label className="label" for="name">
-        Enter name:
+      <label className="label" htmlFor="name">
+        {labelText}
       </label>
       <input id="name" type="text" />
       <button style={{ backgroundColor: "blue", color: "white" }}>
-        {getButtonText()}
+        {buttonText.text}
       </button>
     </div>
   );
