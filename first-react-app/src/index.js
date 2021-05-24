@@ -2,8 +2,8 @@
   * ES2015 Modules -> import
   * CommonJS Modules -> require
   */
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 /** There appears to be an issue in CRA in regards to fast 
  * refresh when code changes are made to the index.js file:
@@ -19,6 +19,10 @@ if (module.hot) {
   module.hot.accept();
 }
 
+function getButtonText() {
+  return 'Click on me!';
+}
+
 /** Create a React component
  *  const App = function() {}; or
  *  const App = () => {};
@@ -26,12 +30,12 @@ if (module.hot) {
 const App = function() {
   return (
     <div>
-      <label class="label" for="name">
+      <label className="label" for="name">
         Enter name:
       </label>
       <input id="name" type="text" />
       <button style={{ backgroundColor: "blue", color: "white" }}>
-        Submit
+        {getButtonText()}
       </button>
     </div>
   );
