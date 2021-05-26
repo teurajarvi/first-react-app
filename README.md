@@ -4,9 +4,9 @@
 ## Clone the project using Git:
 > git clone https://github.com/teurajarvi/first-react-app.git
 
-## Start the React app
+## Install and run the project
 > cd first-react-app
-
+> npm install
 > npm start
 
 ## Stop the React app
